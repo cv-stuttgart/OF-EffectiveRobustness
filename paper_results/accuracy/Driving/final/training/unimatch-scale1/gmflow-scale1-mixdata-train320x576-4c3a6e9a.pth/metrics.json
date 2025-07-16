@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch-scale1",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale1-mixdata-train320x576-4c3a6e9a.pth",
+      "dataset": "Driving",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale1-mixdata-train320x576-4c3a6e9a.pth",
+      "creation_timestamp": "250117-203646"
+   },
+   "aee_mean": 16.215167999267578,
+   "fl-epe-1px_mean": 0.4753961055108141,
+   "fl-epe-3px_mean": 0.7336310004277695,
+   "fl-epe-5px_mean": 0.7885792831539439,
+   "fl-all-kitti_mean": 0.24686385834275743,
+   "mse_mean": 2163.510498046875,
+   "wauc_mean": 0.5096470134178112,
+   "num_valid_pixels_mean": 517894.78483606555,
+   "aee_all": 16.17385683208094,
+   "fl-epe-1px_all": 0.47565961659278966,
+   "fl-epe-3px_all": 0.7338959629978256,
+   "fl-epe-5px_all": 0.7888166177461757,
+   "fl-all-kitti_all": 0.24664049711607972,
+   "mse_all": 2155.8934143056376,
+   "wauc_all": 0.5098696228682973,
+   "num_valid_pixels_all": 2274593895,
+   "runtime_s": 968.922897,
+   "dataset_size": 4392
+}

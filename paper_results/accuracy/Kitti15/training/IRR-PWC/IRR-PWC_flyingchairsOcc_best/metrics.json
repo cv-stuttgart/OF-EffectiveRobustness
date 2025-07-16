@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "IRR-PWC",
+      "custom_weight_path": "./models/_pretrained_weights/irr_weights/pwcnet/IRR-PWC_flyingchairsOcc/checkpoint_best.ckpt",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "./models/_pretrained_weights/irr_weights/pwcnet/IRR-PWC_flyingchairsOcc/checkpoint_best.ckpt",
+      "creation_timestamp": "250202-131732"
+   },
+   "aee_mean": 10.416491508483887,
+   "fl-epe-1px_mean": 0.49175549815763553,
+   "fl-epe-3px_mean": 0.6889450457126813,
+   "fl-epe-5px_mean": 0.7520905117598855,
+   "fl-all-kitti_mean": 0.3034794192340081,
+   "mse_mean": 424.93243408203125,
+   "wauc_mean": 0.519298304611832,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 10.93282709806985,
+   "fl-epe-1px_all": 0.4787328376780449,
+   "fl-epe-3px_all": 0.681237515738659,
+   "fl-epe-5px_all": 0.7457466437255212,
+   "fl-all-kitti_all": 0.310888583355247,
+   "mse_all": 458.4528671820669,
+   "wauc_all": 0.5074743205618556,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 59.162148,
+   "dataset_size": 200
+}

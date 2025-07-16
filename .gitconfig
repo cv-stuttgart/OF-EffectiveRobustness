@@ -1,0 +1,2 @@
+[alias]
+     diffw = diff -w -U0 --word-diff-regex=[^[:space:]] 

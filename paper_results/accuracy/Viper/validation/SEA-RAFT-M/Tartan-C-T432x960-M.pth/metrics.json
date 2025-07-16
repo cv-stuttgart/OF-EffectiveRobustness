@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-M",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T432x960-M.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T432x960-M.pth",
+      "creation_timestamp": "240802-170902"
+   },
+   "aee_mean": 49.26714324951172,
+   "fl-epe-1px_mean": 0.6456650245423223,
+   "fl-epe-3px_mean": 0.7738322654884662,
+   "fl-epe-5px_mean": 0.8092699825584396,
+   "fl-all-kitti_mean": 0.21046451173188974,
+   "mse_mean": 165884.609375,
+   "wauc_mean": 0.6441391751755634,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 48.32252963137382,
+   "fl-epe-1px_all": 0.6480696746077274,
+   "fl-epe-3px_all": 0.7752537301636755,
+   "fl-epe-5px_all": 0.8106189689656531,
+   "fl-all-kitti_all": 0.20895694065294335,
+   "mse_all": 157713.58669567527,
+   "wauc_all": 0.6462313755649417,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 5916.981069,
+   "dataset_size": 4954
+}

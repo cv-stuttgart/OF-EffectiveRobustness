@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "RAFT",
+      "custom_weight_path": "models/_pretrained_weights/raft-sintel.pth",
+      "dataset": "FlyingThings3D",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/raft-sintel.pth",
+      "creation_timestamp": "250131-182724"
+   },
+   "aee_mean": 5.865751266479492,
+   "fl-epe-1px_mean": 0.7988154071444317,
+   "fl-epe-3px_mean": 0.883937135596817,
+   "fl-epe-5px_mean": 0.9079763160815527,
+   "fl-all-kitti_mean": 0.1045137957890666,
+   "mse_mean": 631.030029296875,
+   "wauc_mean": 0.7792913545149269,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 5.798984828521077,
+   "fl-epe-1px_all": 0.7990209474632263,
+   "fl-epe-3px_all": 0.884120029714413,
+   "fl-epe-5px_all": 0.9081514275487746,
+   "fl-all-kitti_all": 0.10434043246486845,
+   "mse_all": 605.6490263601629,
+   "wauc_all": 0.7794764536383997,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 2623.206776,
+   "dataset_size": 7866
+}

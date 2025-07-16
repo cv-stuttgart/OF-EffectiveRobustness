@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-L",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C368x496-M.pth",
+      "dataset": "HD1KSplitScheurer",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C368x496-M.pth",
+      "creation_timestamp": "240626-171439"
+   },
+   "aee_mean": 1.0260329246520996,
+   "fl-epe-1px_mean": 0.740176204370344,
+   "fl-epe-3px_mean": 0.9492375845152405,
+   "fl-epe-5px_mean": 0.9762601463796987,
+   "fl-all-kitti_mean": 0.05076241548475951,
+   "mse_mean": 3.474121570587158,
+   "wauc_mean": 0.7402228384403761,
+   "num_valid_pixels_mean": 489696.89506820566,
+   "aee_all": 1.0373488165019775,
+   "fl-epe-1px_all": 0.7400709127862529,
+   "fl-epe-3px_all": 0.948355772533778,
+   "fl-epe-5px_all": 0.9757197409440636,
+   "fl-all-kitti_all": 0.05164422746622195,
+   "mse_all": 3.580102732387217,
+   "wauc_all": 0.7389846110599326,
+   "num_valid_pixels_all": 466681141,
+   "runtime_s": 503.618428,
+   "dataset_size": 953
+}

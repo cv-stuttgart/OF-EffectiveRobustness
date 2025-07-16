@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowNet2S",
+      "custom_weight_path": "models/_pretrained_weights/FlowNet/FlowNet2-S_checkpoint.pth.tar",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowNet/FlowNet2-S_checkpoint.pth.tar",
+      "creation_timestamp": "240812-190732"
+   },
+   "aee_mean": 59.11127471923828,
+   "fl-epe-1px_mean": 0.34742499157857604,
+   "fl-epe-3px_mean": 0.570328715210933,
+   "fl-epe-5px_mean": 0.6451341539493304,
+   "fl-all-kitti_mean": 0.42462883109375044,
+   "mse_mean": 166437.390625,
+   "wauc_mean": 0.3884194338766159,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 58.24575065210477,
+   "fl-epe-1px_all": 0.34564774270101684,
+   "fl-epe-3px_all": 0.5681475023385951,
+   "fl-epe-5px_all": 0.6437562836925338,
+   "fl-all-kitti_all": 0.42662001470400546,
+   "mse_all": 158291.93977843746,
+   "wauc_all": 0.38672249958989907,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 2236.75592,
+   "dataset_size": 4954
+}

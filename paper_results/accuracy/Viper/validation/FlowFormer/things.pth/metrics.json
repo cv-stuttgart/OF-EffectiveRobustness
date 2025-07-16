@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowFormer",
+      "custom_weight_path": "models/_pretrained_weights/FlowFormer-Models/things.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowFormer-Models/things.pth",
+      "creation_timestamp": "240812-063049"
+   },
+   "aee_mean": 51.441375732421875,
+   "fl-epe-1px_mean": 0.618439325313577,
+   "fl-epe-3px_mean": 0.746359291133509,
+   "fl-epe-5px_mean": 0.7823108887919029,
+   "fl-all-kitti_mean": 0.2375301503106536,
+   "mse_mean": 162591.65625,
+   "wauc_mean": 0.6139735963106042,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 50.29523944898486,
+   "fl-epe-1px_all": 0.6207468152059538,
+   "fl-epe-3px_all": 0.7485846797988299,
+   "fl-epe-5px_all": 0.7846806713770873,
+   "fl-all-kitti_all": 0.2351718793707597,
+   "mse_all": 154508.19095939712,
+   "wauc_all": 0.6162413401199123,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 42004.559932,
+   "dataset_size": 4954
+}

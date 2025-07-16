@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MatchFlowG",
+      "custom_weight_path": "models/_pretrained_weights/matchflow_weights/matchflow-g/matchflow-g-sintel.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/matchflow_weights/matchflow-g/matchflow-g-sintel.pth",
+      "creation_timestamp": "240813-005118"
+   },
+   "aee_mean": 50.91765594482422,
+   "fl-epe-1px_mean": 0.6843245918212905,
+   "fl-epe-3px_mean": 0.795399581014575,
+   "fl-epe-5px_mean": 0.8255043073771974,
+   "fl-all-kitti_mean": 0.189354864501061,
+   "mse_mean": 165830.375,
+   "wauc_mean": 0.6814056632863803,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 49.998100407289606,
+   "fl-epe-1px_all": 0.6868137861093094,
+   "fl-epe-3px_all": 0.7961288227820853,
+   "fl-epe-5px_all": 0.8259511237271506,
+   "fl-all-kitti_all": 0.18858322338657815,
+   "mse_all": 157660.4436338316,
+   "wauc_all": 0.683292138819954,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 8526.510701,
+   "dataset_size": 4954
+}

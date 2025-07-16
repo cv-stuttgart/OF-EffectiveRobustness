@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "GMA",
+      "custom_weight_path": "models/_pretrained_weights/gma-chairs.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/gma-chairs.pth",
+      "creation_timestamp": "241221-001839"
+   },
+   "aee_mean": 61.377044677734375,
+   "fl-epe-1px_mean": 0.46129551745620523,
+   "fl-epe-3px_mean": 0.6521845679200492,
+   "fl-epe-5px_mean": 0.7113792758243537,
+   "fl-all-kitti_mean": 0.33995900159135084,
+   "mse_mean": 167796.078125,
+   "wauc_mean": 0.4972398695763516,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 60.429836772656145,
+   "fl-epe-1px_all": 0.46272617561574503,
+   "fl-epe-3px_all": 0.6525558297486018,
+   "fl-epe-5px_all": 0.7120815461564646,
+   "fl-all-kitti_all": 0.3393784610776523,
+   "mse_all": 159621.69769110688,
+   "wauc_all": 0.49833962617573146,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 4177.734972,
+   "dataset_size": 4954
+}

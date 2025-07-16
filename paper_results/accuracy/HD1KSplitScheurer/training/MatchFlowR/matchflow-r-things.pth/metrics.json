@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MatchFlowR",
+      "custom_weight_path": "models/_pretrained_weights/matchflow_weights/matchflow-r/matchflow-r-things.pth",
+      "dataset": "HD1KSplitScheurer",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/matchflow_weights/matchflow-r/matchflow-r-things.pth",
+      "creation_timestamp": "250221-215714"
+   },
+   "aee_mean": 0.42677175998687744,
+   "fl-epe-1px_mean": 0.9299589092361593,
+   "fl-epe-3px_mean": 0.9831965322702442,
+   "fl-epe-5px_mean": 0.9926751381743366,
+   "fl-all-kitti_mean": 0.01680346772975571,
+   "mse_mean": 1.9164552688598633,
+   "wauc_mean": 0.8846614506887285,
+   "num_valid_pixels_mean": 489696.89506820566,
+   "aee_all": 0.4304512221772408,
+   "fl-epe-1px_all": 0.9295610083373821,
+   "fl-epe-3px_all": 0.983069043709225,
+   "fl-epe-5px_all": 0.9926600676584872,
+   "fl-all-kitti_all": 0.01693095629077499,
+   "mse_all": 1.9964881476787357,
+   "wauc_all": 0.8837697213506805,
+   "num_valid_pixels_all": 466681141,
+   "runtime_s": 594.40148,
+   "dataset_size": 953
+}

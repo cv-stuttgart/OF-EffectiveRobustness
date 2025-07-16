@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "ptlflow-rpknet",
+      "custom_weight_path": "sintel",
+      "dataset": "Driving",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "sintel",
+      "creation_timestamp": "250117-173134"
+   },
+   "aee_mean": 8.967127799987793,
+   "fl-epe-1px_mean": 0.6805907022706104,
+   "fl-epe-3px_mean": 0.8261974707741548,
+   "fl-epe-5px_mean": 0.8678770542743871,
+   "fl-all-kitti_mean": 0.14477372018957937,
+   "mse_mean": 867.5911865234375,
+   "wauc_mean": 0.6792692673261523,
+   "num_valid_pixels_mean": 517894.78483606555,
+   "aee_all": 8.936500759067695,
+   "fl-epe-1px_all": 0.6808756923178149,
+   "fl-epe-3px_all": 0.8264645368706576,
+   "fl-epe-5px_all": 0.8681301635165076,
+   "fl-all-kitti_all": 0.14454655388055546,
+   "mse_all": 863.071778710696,
+   "wauc_all": 0.6795326674305925,
+   "num_valid_pixels_all": 2274593895,
+   "runtime_s": 2472.604722,
+   "dataset_size": 4392
+}

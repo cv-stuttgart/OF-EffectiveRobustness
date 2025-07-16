@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MemFlow",
+      "custom_weight_path": "models/_pretrained_weights/memflow_weights/MemFlowNet_kitti.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/memflow_weights/MemFlowNet_kitti.pth",
+      "creation_timestamp": "240818-143435"
+   },
+   "aee_mean": 1.3683687448501587,
+   "fl-epe-1px_mean": 0.9274526586296632,
+   "fl-epe-3px_mean": 0.9729614801206595,
+   "fl-epe-5px_mean": 0.9832224758119544,
+   "fl-all-kitti_mean": 0.026214785811691517,
+   "mse_mean": 125.23783874511719,
+   "wauc_mean": 0.8913564735411086,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 1.3682253310871588,
+   "fl-epe-1px_all": 0.9274525969394494,
+   "fl-epe-3px_all": 0.9729621727039095,
+   "fl-epe-5px_all": 0.9832232998761739,
+   "fl-all-kitti_all": 0.026214139706280684,
+   "mse_all": 125.21055417557301,
+   "wauc_all": 0.8913566022497386,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 49378.514505,
+   "dataset_size": 19852
+}

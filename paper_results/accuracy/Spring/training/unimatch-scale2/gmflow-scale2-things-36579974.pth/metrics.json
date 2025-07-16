@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-things-36579974.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-things-36579974.pth",
+      "creation_timestamp": "240720-015257"
+   },
+   "aee_mean": 0.6807906627655029,
+   "fl-epe-1px_mean": 0.9338587380868436,
+   "fl-epe-3px_mean": 0.9833681934750974,
+   "fl-epe-5px_mean": 0.9898967024066129,
+   "fl-all-kitti_mean": 0.015552566556014712,
+   "mse_mean": 19.62404441833496,
+   "wauc_mean": 0.86357941916481,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 0.6806673635867215,
+   "fl-epe-1px_all": 0.9338588889782719,
+   "fl-epe-3px_all": 0.983368969133898,
+   "fl-epe-5px_all": 0.989897485852566,
+   "fl-all-kitti_all": 0.015551853193093159,
+   "mse_all": 19.599396290153077,
+   "wauc_all": 0.8635799102007125,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 90781.737981,
+   "dataset_size": 19852
+}

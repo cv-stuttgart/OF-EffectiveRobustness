@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "CCMR+",
+      "custom_weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_sintel.pth",
+      "dataset": "HD1KSplitScheurer",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_sintel.pth",
+      "creation_timestamp": "240710-145847"
+   },
+   "aee_mean": 0.2670007050037384,
+   "fl-epe-1px_mean": 0.9617461802513516,
+   "fl-epe-3px_mean": 0.9923804793014364,
+   "fl-epe-5px_mean": 0.9969653899695343,
+   "fl-all-kitti_mean": 0.007619520698563625,
+   "mse_mean": 0.4726657271385193,
+   "wauc_mean": 0.9216044111139134,
+   "num_valid_pixels_mean": 489696.89506820566,
+   "aee_all": 0.26985818240543574,
+   "fl-epe-1px_all": 0.9608814726027252,
+   "fl-epe-3px_all": 0.9923256230317651,
+   "fl-epe-5px_all": 0.9970094870407459,
+   "fl-all-kitti_all": 0.007674376968234934,
+   "mse_all": 0.4722749143958395,
+   "wauc_all": 0.9204548964184612,
+   "num_valid_pixels_all": 466681141,
+   "runtime_s": 1660.425837,
+   "dataset_size": 953
+}

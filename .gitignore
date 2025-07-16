@@ -1,0 +1,50 @@
+# macOS file system
+.DS_Store
+testing.py
+.vscode
+
+#
+*.png
+*log.txt
+# flownet2 stuff
+models/FlowNetC/correlation_package/*.cc
+models/FlowNetC/correlation_package/*.egg-info
+models/FlowNetC/correlation_package/*.cu
+models/FlowNetC/correlation_package/*.cuh
+
+models/FlowNet/correlation_package/build/*
+models/FlowNet/correlation_package/correlation_cuda.egg-info/*
+models/FlowNet/correlation_package/dist/*
+
+models/FlowNet/channelnorm_package/build/*
+models/FlowNet/channelnorm_package/channelnorm_cuda.egg-info/*
+models/FlowNet/channelnorm_package/dist/*
+
+models/FlowNet/resample2d_package/build/*
+models/FlowNet/resample2d_package/resample2d_cuda.egg-info/*
+models/FlowNet/resample2d_package/dist/*
+
+# other models stuff
+models/FlowFormer/alt_cuda_corr/correlation.egg-info/
+ptlflow_logs/
+
+# folders
+models/_pretrained_weights/
+submissions/sintel_submissions/*
+submissions/kitti_submissions/*
+models/your_model
+datasets
+datasets_*
+build/
+dist/
+
+__pycache__/
+lo
+runs/
+runs*/
+patches/
+experiment*/
+mlruns/
+submissions/
+tune_logs/
+patch_attack_high_epe/

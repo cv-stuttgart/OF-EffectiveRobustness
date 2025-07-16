@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowFormer",
+      "custom_weight_path": "models/_pretrained_weights/FlowFormer-Models/kitti.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowFormer-Models/kitti.pth",
+      "creation_timestamp": "240819-173448"
+   },
+   "aee_mean": 2.1723380088806152,
+   "fl-epe-1px_mean": 0.9105574030784556,
+   "fl-epe-3px_mean": 0.9577550242192538,
+   "fl-epe-5px_mean": 0.9684265921526155,
+   "fl-all-kitti_mean": 0.04174936450491953,
+   "mse_mean": 133.8606414794922,
+   "wauc_mean": 0.8646170801375875,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 2.172103048880315,
+   "fl-epe-1px_all": 0.9105572854820226,
+   "fl-epe-3px_all": 0.957755905980044,
+   "fl-epe-5px_all": 0.9684277245462958,
+   "fl-all-kitti_all": 0.04174847040504669,
+   "mse_all": 133.82504830843848,
+   "wauc_all": 0.8646170133497292,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 170467.18806,
+   "dataset_size": 19852
+}

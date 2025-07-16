@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-L",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T432x960-M.pth",
+      "dataset": "Driving",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T432x960-M.pth",
+      "creation_timestamp": "250116-233053"
+   },
+   "aee_mean": 12.689642906188965,
+   "fl-epe-1px_mean": 0.653775326155519,
+   "fl-epe-3px_mean": 0.7853595086673985,
+   "fl-epe-5px_mean": 0.8353824509777087,
+   "fl-all-kitti_mean": 0.18101536577994629,
+   "mse_mean": 1642.195556640625,
+   "wauc_mean": 0.6572273909958767,
+   "num_valid_pixels_mean": 517894.78483606555,
+   "aee_all": 12.65211278770453,
+   "fl-epe-1px_all": 0.6540202021425016,
+   "fl-epe-3px_all": 0.785591198907179,
+   "fl-epe-5px_all": 0.8356152591361808,
+   "fl-all-kitti_all": 0.18080399138677897,
+   "mse_all": 1635.5757033678735,
+   "wauc_all": 0.6574606624733572,
+   "num_valid_pixels_all": 2274593895,
+   "runtime_s": 1266.147943,
+   "dataset_size": 4392
+}

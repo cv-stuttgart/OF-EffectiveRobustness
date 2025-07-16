@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "GMA",
+      "custom_weight_path": "models/_pretrained_weights/gma-chairs.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/gma-chairs.pth",
+      "creation_timestamp": "250116-110559"
+   },
+   "aee_mean": 11.163634300231934,
+   "fl-epe-1px_mean": 0.3787986984718084,
+   "fl-epe-3px_mean": 0.6352821461306872,
+   "fl-epe-5px_mean": 0.7180801751692673,
+   "fl-all-kitti_mean": 0.35768847283065414,
+   "mse_mean": 471.5930480957031,
+   "wauc_mean": 0.441400004559327,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 11.73389775668744,
+   "fl-epe-1px_all": 0.36202115728558415,
+   "fl-epe-3px_all": 0.6266274165263321,
+   "fl-epe-5px_all": 0.7117197391083255,
+   "fl-all-kitti_all": 0.3661194670885701,
+   "mse_all": 512.767766967724,
+   "wauc_all": 0.4274406034004832,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 33.752793,
+   "dataset_size": 200
+}

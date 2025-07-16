@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "CCMR+",
+      "custom_weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_sintel.pth",
+      "dataset": "FlyingThings3DFinal",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_sintel.pth",
+      "creation_timestamp": "240705-023413"
+   },
+   "aee_mean": 4.354778289794922,
+   "fl-epe-1px_mean": 0.8665278367677197,
+   "fl-epe-3px_mean": 0.9157607194381654,
+   "fl-epe-5px_mean": 0.9313404349811671,
+   "fl-all-kitti_mean": 0.07430237009843638,
+   "mse_mean": 503.6645202636719,
+   "wauc_mean": 0.8563050106667809,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 4.28788183583685,
+   "fl-epe-1px_all": 0.866689965382373,
+   "fl-epe-3px_all": 0.9159235035214901,
+   "fl-epe-5px_all": 0.9315070699640451,
+   "fl-all-kitti_all": 0.07413789855606097,
+   "mse_all": 478.8321430511564,
+   "wauc_all": 0.8564677275642968,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 10001.192709,
+   "dataset_size": 7866
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-sintelft-6e39e2b9.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-sintelft-6e39e2b9.pth",
+      "creation_timestamp": "240622-182820"
+   },
+   "aee_mean": 1.1756139993667603,
+   "fl-epe-1px_mean": 0.8078444054355296,
+   "fl-epe-3px_mean": 0.9354264521703659,
+   "fl-epe-5px_mean": 0.9612097819237075,
+   "fl-all-kitti_mean": 0.03910180255624964,
+   "mse_mean": 14.552363395690918,
+   "wauc_mean": 0.7871422031391182,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 1.205305825074643,
+   "fl-epe-1px_all": 0.8024054352577309,
+   "fl-epe-3px_all": 0.9334077853899966,
+   "fl-epe-5px_all": 0.9599462556358767,
+   "fl-all-kitti_all": 0.04014740353486363,
+   "mse_all": 14.148325944969585,
+   "wauc_all": 0.7815062629056221,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 84.431706,
+   "dataset_size": 200
+}

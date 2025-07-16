@@ -1,0 +1,5 @@
+# ninja log v5
+2	24088	1719453915644345000	/home/bauerkn/model_repos/MatchFlow/QuadTreeAttention/build/temp.linux-x86_64-3.9/QuadtreeAttention/src/score_computation.o	c9373a7d052cfa43
+2	39047	1719453930613354000	/home/bauerkn/model_repos/MatchFlow/QuadTreeAttention/build/temp.linux-x86_64-3.9/QuadtreeAttention/src/score_computation_kernal.o	e7366514913f1bef
+3	17383	1719453949994359000	/home/bauerkn/model_repos/MatchFlow/QuadTreeAttention/build/temp.linux-x86_64-3.9/QuadtreeAttention/src/value_aggregation.o	2d6fde2c9235a689
+3	29831	1719453962441348000	/home/bauerkn/model_repos/MatchFlow/QuadTreeAttention/build/temp.linux-x86_64-3.9/QuadtreeAttention/src/value_aggregation_kernel.o	8916d89080618c0

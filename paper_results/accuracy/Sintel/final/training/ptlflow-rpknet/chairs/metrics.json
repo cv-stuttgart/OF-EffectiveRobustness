@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "ptlflow-rpknet",
+      "custom_weight_path": "chairs",
+      "dataset": "Sintel",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "chairs",
+      "creation_timestamp": "241216-212943"
+   },
+   "aee_mean": 3.7718493938446045,
+   "fl-epe-1px_mean": 0.743075726148221,
+   "fl-epe-3px_mean": 0.8867172395723171,
+   "fl-epe-5px_mean": 0.9163072214554471,
+   "fl-all-kitti_mean": 0.1095181227051827,
+   "mse_mean": 155.35494995117188,
+   "wauc_mean": 0.7296689762105051,
+   "num_valid_pixels_mean": 446464.0,
+   "aee_all": 3.7718474864959717,
+   "fl-epe-1px_all": 0.7430757261482211,
+   "fl-epe-3px_all": 0.8867172395723171,
+   "fl-epe-5px_all": 0.9163072214554471,
+   "fl-all-kitti_all": 0.1095181227051827,
+   "mse_all": 155.35488891601562,
+   "wauc_all": 0.7296689762105042,
+   "num_valid_pixels_all": 464769024,
+   "runtime_s": 598.474767,
+   "dataset_size": 1041
+}

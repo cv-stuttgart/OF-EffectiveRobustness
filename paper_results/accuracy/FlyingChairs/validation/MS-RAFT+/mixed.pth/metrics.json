@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MS-RAFT+",
+      "custom_weight_path": "models/_pretrained_weights/ms_raft_plus/mixed.pth",
+      "dataset": "FlyingChairs",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ms_raft_plus/mixed.pth",
+      "creation_timestamp": "250225-040234"
+   },
+   "aee_mean": 1.079817533493042,
+   "fl-epe-1px_mean": 0.9116157134373983,
+   "fl-epe-3px_mean": 0.9700608889261882,
+   "fl-epe-5px_mean": 0.9750132083892822,
+   "fl-all-kitti_mean": 0.029535476366678876,
+   "mse_mean": 30.249975204467773,
+   "wauc_mean": 0.9027074587274306,
+   "num_valid_pixels_mean": 196608.0,
+   "aee_all": 1.0798175811331021,
+   "fl-epe-1px_all": 0.9116157134373982,
+   "fl-epe-3px_all": 0.9700608889261881,
+   "fl-epe-5px_all": 0.9750132083892822,
+   "fl-all-kitti_all": 0.029535476366678873,
+   "mse_all": 30.249975130042458,
+   "wauc_all": 0.9027074587274307,
+   "num_valid_pixels_all": 125829120,
+   "runtime_s": 253.846227,
+   "dataset_size": 640
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "IRR-PWC",
+      "custom_weight_path": "./models/_pretrained_weights/irr_weights/pwcnet/IRR-PWC_things3d/checkpoint_best.ckpt",
+      "dataset": "FlyingThings3D",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "./models/_pretrained_weights/irr_weights/pwcnet/IRR-PWC_things3d/checkpoint_best.ckpt",
+      "creation_timestamp": "250201-104155"
+   },
+   "aee_mean": 7.238974094390869,
+   "fl-epe-1px_mean": 0.7366897417925359,
+   "fl-epe-3px_mean": 0.8324393124501328,
+   "fl-epe-5px_mean": 0.8633298826967183,
+   "fl-all-kitti_mean": 0.1549542042205851,
+   "mse_mean": 638.0476684570312,
+   "wauc_mean": 0.7152683893945604,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 7.158468807004747,
+   "fl-epe-1px_all": 0.7369059640069787,
+   "fl-epe-3px_all": 0.8326685643822154,
+   "fl-epe-5px_all": 0.863561953577179,
+   "fl-all-kitti_all": 0.15473272846102856,
+   "mse_all": 614.6149016009009,
+   "wauc_all": 0.7154730829321153,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 3498.742632,
+   "dataset_size": 7866
+}

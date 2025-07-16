@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowNet2S",
+      "custom_weight_path": "models/_pretrained_weights/FlowNet/FlowNet2-S_checkpoint.pth.tar",
+      "dataset": "FlyingChairs",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowNet/FlowNet2-S_checkpoint.pth.tar",
+      "creation_timestamp": "250225-042232"
+   },
+   "aee_mean": 3.092522144317627,
+   "fl-epe-1px_mean": 0.5419589042663574,
+   "fl-epe-3px_mean": 0.8115577538808185,
+   "fl-epe-5px_mean": 0.8788977543512981,
+   "fl-all-kitti_mean": 0.1878279685974121,
+   "mse_mean": 41.649070739746094,
+   "wauc_mean": 0.5718389240460034,
+   "num_valid_pixels_mean": 196608.0,
+   "aee_all": 3.092522022174671,
+   "fl-epe-1px_all": 0.5419589042663574,
+   "fl-epe-3px_all": 0.8115577538808186,
+   "fl-epe-5px_all": 0.878897754351298,
+   "fl-all-kitti_all": 0.1878279685974121,
+   "mse_all": 41.649073219462295,
+   "wauc_all": 0.5718389240460039,
+   "num_valid_pixels_all": 125829120,
+   "runtime_s": 41.509668,
+   "dataset_size": 640
+}

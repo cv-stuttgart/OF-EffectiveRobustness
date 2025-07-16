@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "RAFT",
+      "custom_weight_path": "models/_pretrained_weights/raft-chairs.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/raft-chairs.pth",
+      "creation_timestamp": "241219-174213"
+   },
+   "aee_mean": 1.3078776597976685,
+   "fl-epe-1px_mean": 0.9081057475560367,
+   "fl-epe-3px_mean": 0.9676529872642418,
+   "fl-epe-5px_mean": 0.9781906676553332,
+   "fl-all-kitti_mean": 0.03140350996323904,
+   "mse_mean": 105.2093276977539,
+   "wauc_mean": 0.8819592026858689,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 1.3076926551431134,
+   "fl-epe-1px_all": 0.9081051751193399,
+   "fl-epe-3px_all": 0.9676534483367552,
+   "fl-epe-5px_all": 0.9781912928231935,
+   "fl-all-kitti_all": 0.03140305375701923,
+   "mse_all": 105.1738798704476,
+   "wauc_all": 0.8819588207188377,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 21367.462357,
+   "dataset_size": 19852
+}

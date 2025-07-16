@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MS-RAFT+",
+      "custom_weight_path": "",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ms_raft_plus/mixed.pth",
+      "creation_timestamp": "240701-203433"
+   },
+   "aee_mean": 0.6978750824928284,
+   "fl-epe-1px_mean": 0.8762154359228705,
+   "fl-epe-3px_mean": 0.9640296110727743,
+   "fl-epe-5px_mean": 0.9806983003316961,
+   "fl-all-kitti_mean": 0.017604266195461914,
+   "mse_mean": 8.577564239501953,
+   "wauc_mean": 0.8503555175848598,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 0.7001804818799582,
+   "fl-epe-1px_all": 0.8730587898778001,
+   "fl-epe-3px_all": 0.9635356168248224,
+   "fl-epe-5px_all": 0.980609667324367,
+   "fl-all-kitti_all": 0.01732117792216613,
+   "mse_all": 7.518617624173188,
+   "wauc_all": 0.8463678174939901,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 305.613801,
+   "dataset_size": 200
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch-scale2-regrefine6",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-things-776ed612.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-things-776ed612.pth",
+      "creation_timestamp": "240802-000412"
+   },
+   "aee_mean": 50.23915481567383,
+   "fl-epe-1px_mean": 0.5657171860038024,
+   "fl-epe-3px_mean": 0.7135223368601435,
+   "fl-epe-5px_mean": 0.76456934175362,
+   "fl-all-kitti_mean": 0.27494006414983546,
+   "mse_mean": 164674.546875,
+   "wauc_mean": 0.5702668165778935,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 49.23849930661597,
+   "fl-epe-1px_all": 0.5672274967798004,
+   "fl-epe-3px_all": 0.7152706713931478,
+   "fl-epe-5px_all": 0.7663120919857979,
+   "fl-all-kitti_all": 0.27296947708013686,
+   "mse_all": 156521.24986368974,
+   "wauc_all": 0.571850814799367,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 24495.118561,
+   "dataset_size": 4954
+}

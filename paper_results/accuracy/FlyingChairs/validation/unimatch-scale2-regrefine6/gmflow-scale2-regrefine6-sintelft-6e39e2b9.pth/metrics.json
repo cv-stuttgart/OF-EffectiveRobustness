@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch-scale2-regrefine6",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-sintelft-6e39e2b9.pth",
+      "dataset": "FlyingChairs",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-sintelft-6e39e2b9.pth",
+      "creation_timestamp": "250225-052114"
+   },
+   "aee_mean": 0.9959882497787476,
+   "fl-epe-1px_mean": 0.8724761486053467,
+   "fl-epe-3px_mean": 0.963680108388265,
+   "fl-epe-5px_mean": 0.9750828266143798,
+   "fl-all-kitti_mean": 0.03560099601745605,
+   "mse_mean": 18.79836082458496,
+   "wauc_mean": 0.8568849303305346,
+   "num_valid_pixels_mean": 196608.0,
+   "aee_all": 0.9959882731200196,
+   "fl-epe-1px_all": 0.8724761486053467,
+   "fl-epe-3px_all": 0.963680108388265,
+   "fl-epe-5px_all": 0.9750828266143798,
+   "fl-all-kitti_all": 0.03560099601745605,
+   "mse_all": 18.79836232318994,
+   "wauc_all": 0.8568849303305353,
+   "num_valid_pixels_all": 125829120,
+   "runtime_s": 91.736328,
+   "dataset_size": 640
+}

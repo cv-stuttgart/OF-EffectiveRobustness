@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-mixdata-train320x576-4e7b215d.pth",
+      "dataset": "HD1KSplitScheurer",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-mixdata-train320x576-4e7b215d.pth",
+      "creation_timestamp": "240622-194755"
+   },
+   "aee_mean": 0.4255201816558838,
+   "fl-epe-1px_mean": 0.9422802056248443,
+   "fl-epe-3px_mean": 0.9879500015496775,
+   "fl-epe-5px_mean": 0.9958680050489288,
+   "fl-all-kitti_mean": 0.012049996411770939,
+   "mse_mean": 0.3856983482837677,
+   "wauc_mean": 0.8639296905526598,
+   "num_valid_pixels_mean": 489696.89506820566,
+   "aee_all": 0.4283429309779756,
+   "fl-epe-1px_all": 0.9414594814320985,
+   "fl-epe-3px_all": 0.9878079067266187,
+   "fl-epe-5px_all": 0.9958927845340123,
+   "fl-all-kitti_all": 0.012192091130590598,
+   "mse_all": 0.3836820659483397,
+   "wauc_all": 0.8628576833299332,
+   "num_valid_pixels_all": 466681141,
+   "runtime_s": 764.433984,
+   "dataset_size": 953
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "IRR-PWC",
+      "custom_weight_path": "./models/_pretrained_weights/irr_weights/pwcnet/IRR-PWC_sintel/checkpoint_best.ckpt",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "./models/_pretrained_weights/irr_weights/pwcnet/IRR-PWC_sintel/checkpoint_best.ckpt",
+      "creation_timestamp": "250202-024831"
+   },
+   "aee_mean": 53.076744079589844,
+   "fl-epe-1px_mean": 0.6446632019510442,
+   "fl-epe-3px_mean": 0.7614976539430753,
+   "fl-epe-5px_mean": 0.7950302746631122,
+   "fl-all-kitti_mean": 0.22645656934806455,
+   "mse_mean": 166334.3125,
+   "wauc_mean": 0.6358710962541776,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 52.124209188538074,
+   "fl-epe-1px_all": 0.6462022394828703,
+   "fl-epe-3px_all": 0.7625066574891545,
+   "fl-epe-5px_all": 0.7958831372696379,
+   "fl-all-kitti_all": 0.22528001396815847,
+   "mse_all": 158159.175929038,
+   "wauc_all": 0.637177252273286,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 6405.322145,
+   "dataset_size": 4954
+}

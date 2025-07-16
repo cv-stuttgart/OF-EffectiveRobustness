@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowFormer",
+      "custom_weight_path": "models/_pretrained_weights/FlowFormer-Models/things.pth",
+      "dataset": "FlyingChairs",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowFormer-Models/things.pth",
+      "creation_timestamp": "250225-040923"
+   },
+   "aee_mean": 0.995125949382782,
+   "fl-epe-1px_mean": 0.8732697407404582,
+   "fl-epe-3px_mean": 0.9625792900721232,
+   "fl-epe-5px_mean": 0.973896344502767,
+   "fl-all-kitti_mean": 0.03655974864959717,
+   "mse_mean": 19.684072494506836,
+   "wauc_mean": 0.8699450065090317,
+   "num_valid_pixels_mean": 196608.0,
+   "aee_all": 0.9951259732421022,
+   "fl-epe-1px_all": 0.8732697407404582,
+   "fl-epe-3px_all": 0.9625792900721232,
+   "fl-epe-5px_all": 0.973896344502767,
+   "fl-all-kitti_all": 0.03655974864959717,
+   "mse_all": 19.684073677679226,
+   "wauc_all": 0.8699450065090328,
+   "num_valid_pixels_all": 125829120,
+   "runtime_s": 140.717219,
+   "dataset_size": 640
+}

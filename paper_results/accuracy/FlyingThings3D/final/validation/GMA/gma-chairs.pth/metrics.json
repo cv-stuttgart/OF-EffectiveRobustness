@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "GMA",
+      "custom_weight_path": "models/_pretrained_weights/gma-chairs.pth",
+      "dataset": "FlyingThings3D",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/gma-chairs.pth",
+      "creation_timestamp": "250130-203134"
+   },
+   "aee_mean": 10.021078109741211,
+   "fl-epe-1px_mean": 0.6645844363919188,
+   "fl-epe-3px_mean": 0.8145970068243505,
+   "fl-epe-5px_mean": 0.8491279407995301,
+   "fl-all-kitti_mean": 0.17243792419808981,
+   "mse_mean": 992.0350952148438,
+   "wauc_mean": 0.6420093584844749,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 9.945165806297442,
+   "fl-epe-1px_all": 0.6647777281574183,
+   "fl-epe-3px_all": 0.8148026988944006,
+   "fl-epe-5px_all": 0.8493321590400935,
+   "fl-all-kitti_all": 0.17223349156142545,
+   "mse_all": 960.1856265765045,
+   "wauc_all": 0.642183099741531,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 2321.277204,
+   "dataset_size": 7866
+}

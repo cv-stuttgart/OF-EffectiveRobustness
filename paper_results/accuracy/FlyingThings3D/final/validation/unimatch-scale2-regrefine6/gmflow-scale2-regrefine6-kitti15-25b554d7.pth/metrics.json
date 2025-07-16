@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-kitti15-25b554d7.pth",
+      "dataset": "FlyingThings3DFinal",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale2-regrefine6-kitti15-25b554d7.pth",
+      "creation_timestamp": "240623-001136"
+   },
+   "aee_mean": 11.96471118927002,
+   "fl-epe-1px_mean": 0.6158619253424056,
+   "fl-epe-3px_mean": 0.7581120424494431,
+   "fl-epe-5px_mean": 0.7974177098946591,
+   "fl-all-kitti_mean": 0.2287240557204958,
+   "mse_mean": 1022.0213623046875,
+   "wauc_mean": 0.5997011343946289,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 11.884383463945712,
+   "fl-epe-1px_all": 0.616049270550513,
+   "fl-epe-3px_all": 0.7583345429544514,
+   "fl-epe-5px_all": 0.7976490141609374,
+   "fl-all-kitti_all": 0.22849909860628095,
+   "mse_all": 994.5165584191238,
+   "wauc_all": 0.5998804373424119,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 4203.307771,
+   "dataset_size": 7866
+}

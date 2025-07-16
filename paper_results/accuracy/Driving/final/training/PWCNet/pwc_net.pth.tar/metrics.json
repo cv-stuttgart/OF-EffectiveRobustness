@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "PWCNet",
+      "custom_weight_path": "models/_pretrained_weights/pwc_net.pth.tar",
+      "dataset": "Driving",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/pwc_net.pth.tar",
+      "creation_timestamp": "250131-121015"
+   },
+   "aee_mean": 24.25796890258789,
+   "fl-epe-1px_mean": 0.2067072400926292,
+   "fl-epe-3px_mean": 0.6903544078359135,
+   "fl-epe-5px_mean": 0.7795013577232718,
+   "fl-all-kitti_mean": 0.27467639750118916,
+   "mse_mean": 4460.39990234375,
+   "wauc_mean": 0.376033898877178,
+   "num_valid_pixels_mean": 517894.78483606555,
+   "aee_all": 24.188190093089815,
+   "fl-epe-1px_all": 0.20676857835319215,
+   "fl-epe-3px_all": 0.6906287629862824,
+   "fl-epe-5px_all": 0.7797975638196285,
+   "fl-all-kitti_all": 0.2744067384389071,
+   "mse_all": 4444.435932801065,
+   "wauc_all": 0.3761731547935232,
+   "num_valid_pixels_all": 2274593895,
+   "runtime_s": 1894.965144,
+   "dataset_size": 4392
+}

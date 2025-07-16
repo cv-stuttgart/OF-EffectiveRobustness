@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-M",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH432x960-M.pth",
+      "dataset": "FlyingChairs",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH432x960-M.pth",
+      "creation_timestamp": "250225-054145"
+   },
+   "aee_mean": 1.1410573720932007,
+   "fl-epe-1px_mean": 0.8898142894109089,
+   "fl-epe-3px_mean": 0.9635416428248089,
+   "fl-epe-5px_mean": 0.9710378567377728,
+   "fl-all-kitti_mean": 0.035857041676839195,
+   "mse_mean": 28.8250675201416,
+   "wauc_mean": 0.8873027192531244,
+   "num_valid_pixels_mean": 196608.0,
+   "aee_all": 1.1410573428525823,
+   "fl-epe-1px_all": 0.889814289410909,
+   "fl-epe-3px_all": 0.9635416428248088,
+   "fl-epe-5px_all": 0.9710378567377727,
+   "fl-all-kitti_all": 0.035857041676839195,
+   "mse_all": 28.8250672225573,
+   "wauc_all": 0.8873027192531246,
+   "num_valid_pixels_all": 125829120,
+   "runtime_s": 53.706645,
+   "dataset_size": 640
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-L",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH-kitti432x960-M.pth",
+      "dataset": "FlyingThings3DFinal",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH-kitti432x960-M.pth",
+      "creation_timestamp": "240626-124112"
+   },
+   "aee_mean": 5.376110553741455,
+   "fl-epe-1px_mean": 0.8467507797371149,
+   "fl-epe-3px_mean": 0.9080386924856683,
+   "fl-epe-5px_mean": 0.9247063868244406,
+   "fl-all-kitti_mean": 0.081952421054446,
+   "mse_mean": 618.7662963867188,
+   "wauc_mean": 0.828533567052016,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 5.310089238047532,
+   "fl-epe-1px_all": 0.8469343085890008,
+   "fl-epe-3px_all": 0.9082116920938483,
+   "fl-epe-5px_all": 0.9248750056208693,
+   "fl-all-kitti_all": 0.08178007220221988,
+   "mse_all": 596.4639399037369,
+   "wauc_all": 0.8287095206494101,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 2873.616623,
+   "dataset_size": 7866
+}

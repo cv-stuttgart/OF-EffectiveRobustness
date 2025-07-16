@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MS-RAFT+",
+      "custom_weight_path": "models/_pretrained_weights/ms_raft_plus/mixed.pth",
+      "dataset": "Driving",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ms_raft_plus/mixed.pth",
+      "creation_timestamp": "250117-183409"
+   },
+   "aee_mean": 6.807755947113037,
+   "fl-epe-1px_mean": 0.7466104049981033,
+   "fl-epe-3px_mean": 0.8573114590873328,
+   "fl-epe-5px_mean": 0.8884179902729522,
+   "fl-all-kitti_mean": 0.11753715920243281,
+   "mse_mean": 814.6187133789062,
+   "wauc_mean": 0.7391338128664812,
+   "num_valid_pixels_mean": 517894.78483606555,
+   "aee_all": 6.783375496746108,
+   "fl-epe-1px_all": 0.7468895677309465,
+   "fl-epe-3px_all": 0.8575692066561182,
+   "fl-epe-5px_all": 0.8886542448053129,
+   "fl-all-kitti_all": 0.11733900041967711,
+   "mse_all": 811.0186494394537,
+   "wauc_all": 0.7393974196820421,
+   "num_valid_pixels_all": 2274593895,
+   "runtime_s": 3989.87806,
+   "dataset_size": 4392
+}

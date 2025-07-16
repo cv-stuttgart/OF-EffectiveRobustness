@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowFormer",
+      "custom_weight_path": "models/_pretrained_weights/FlowFormer-Models/chairs.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowFormer-Models/chairs.pth",
+      "creation_timestamp": "250222-160657"
+   },
+   "aee_mean": 65.4407730102539,
+   "fl-epe-1px_mean": 0.4807179053788379,
+   "fl-epe-3px_mean": 0.653117061762061,
+   "fl-epe-5px_mean": 0.6985956476785599,
+   "fl-all-kitti_mean": 0.33795158494348865,
+   "mse_mean": 168463.953125,
+   "wauc_mean": 0.5042220830915471,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 64.33226648644222,
+   "fl-epe-1px_all": 0.4813186881252142,
+   "fl-epe-3px_all": 0.6548533348044404,
+   "fl-epe-5px_all": 0.7009508559868828,
+   "fl-all-kitti_all": 0.3359909586145914,
+   "mse_all": 160280.84465985667,
+   "wauc_all": 0.5053276089545572,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 41958.517588,
+   "dataset_size": 4954
+}

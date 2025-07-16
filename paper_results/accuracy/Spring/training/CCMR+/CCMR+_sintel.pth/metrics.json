@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "CCMR+",
+      "custom_weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_sintel.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_sintel.pth",
+      "creation_timestamp": "240804-085217"
+   },
+   "aee_mean": 0.4257335960865021,
+   "fl-epe-1px_mean": 0.9646194200135838,
+   "fl-epe-3px_mean": 0.9878559036158618,
+   "fl-epe-5px_mean": 0.9924830201271112,
+   "fl-all-kitti_mean": 0.011219533723932557,
+   "mse_mean": 22.01189613342285,
+   "wauc_mean": 0.9520814425915372,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 0.42560940899319966,
+   "fl-epe-1px_all": 0.9646196894131678,
+   "fl-epe-3px_all": 0.987856574073886,
+   "fl-epe-5px_all": 0.9924837311392566,
+   "fl-all-kitti_all": 0.01121889633857415,
+   "mse_all": 21.987396720334864,
+   "wauc_all": 0.9520814934403651,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 96351.267582,
+   "dataset_size": 19852
+}

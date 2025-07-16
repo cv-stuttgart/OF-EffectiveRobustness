@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "RAFT",
+      "custom_weight_path": "/home/bauerkn/raft_plain/checkpoints/things/things_fullBatched_mixedPre_lr_0.00025_batchsize_1_wdecay_0.001/things_fullBatched_mixedPre_lr_0.00025_batchsize_1_wdecay_0.001_100000.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "/home/bauerkn/raft_plain/checkpoints/things/things_fullBatched_mixedPre_lr_0.00025_batchsize_1_wdecay_0.001/things_fullBatched_mixedPre_lr_0.00025_batchsize_1_wdecay_0.001_100000.pth",
+      "creation_timestamp": "240813-010720"
+   },
+   "aee_mean": 6.199367046356201,
+   "fl-epe-1px_mean": 0.6092403740915099,
+   "fl-epe-3px_mean": 0.7863460196978184,
+   "fl-epe-5px_mean": 0.8318968672996442,
+   "fl-all-kitti_mean": 0.19997576421013682,
+   "mse_mean": 217.93930053710938,
+   "wauc_mean": 0.6133368782549187,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 6.547177965778409,
+   "fl-epe-1px_all": 0.6006759351332148,
+   "fl-epe-3px_all": 0.7813507883696752,
+   "fl-epe-5px_all": 0.8274515083861148,
+   "fl-all-kitti_all": 0.20461535631627434,
+   "mse_all": 239.6428790833963,
+   "wauc_all": 0.604820901784922,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 33.811755,
+   "dataset_size": 200
+}

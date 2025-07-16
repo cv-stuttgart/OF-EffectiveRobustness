@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SKFlow",
+      "custom_weight_path": "models/_pretrained_weights/skflow_weights/skflow-kitti.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/skflow_weights/skflow-kitti.pth",
+      "creation_timestamp": "240815-045135"
+   },
+   "aee_mean": 42.5969123840332,
+   "fl-epe-1px_mean": 0.6249937983235382,
+   "fl-epe-3px_mean": 0.7465926368658923,
+   "fl-epe-5px_mean": 0.788965454746876,
+   "fl-all-kitti_mean": 0.2245653007382822,
+   "mse_mean": 161289.421875,
+   "wauc_mean": 0.6207448918771499,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 41.83132634618404,
+   "fl-epe-1px_all": 0.6277746001267639,
+   "fl-epe-3px_all": 0.7489190413168666,
+   "fl-epe-5px_all": 0.7910841510026307,
+   "fl-all-kitti_all": 0.2222009427633405,
+   "mse_all": 153285.93495097983,
+   "wauc_all": 0.6234244986584081,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 6338.49964,
+   "dataset_size": 4954
+}

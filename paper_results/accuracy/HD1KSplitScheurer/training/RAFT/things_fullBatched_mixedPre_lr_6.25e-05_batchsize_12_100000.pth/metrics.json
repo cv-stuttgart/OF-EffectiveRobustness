@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "RAFT",
+      "custom_weight_path": "/home/bauerkn/raft_plain/checkpoints/things/things_fullBatched_mixedPre_lr_6.25e-05_batchsize_12/things_fullBatched_mixedPre_lr_6.25e-05_batchsize_12_100000.pth",
+      "dataset": "HD1KSplitScheurer",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "/home/bauerkn/raft_plain/checkpoints/things/things_fullBatched_mixedPre_lr_6.25e-05_batchsize_12/things_fullBatched_mixedPre_lr_6.25e-05_batchsize_12_100000.pth",
+      "creation_timestamp": "240813-004754"
+   },
+   "aee_mean": 0.4918249845504761,
+   "fl-epe-1px_mean": 0.9107511754405417,
+   "fl-epe-3px_mean": 0.9783288222571718,
+   "fl-epe-5px_mean": 0.9902493149162597,
+   "fl-all-kitti_mean": 0.02167117774282822,
+   "mse_mean": 1.4457694292068481,
+   "wauc_mean": 0.8677809589138747,
+   "num_valid_pixels_mean": 489696.89506820566,
+   "aee_all": 0.49659045942731994,
+   "fl-epe-1px_all": 0.9097787476267442,
+   "fl-epe-3px_all": 0.9780418746340556,
+   "fl-epe-5px_all": 0.9901287825984809,
+   "fl-all-kitti_all": 0.021958125365944454,
+   "mse_all": 1.4648424388067423,
+   "wauc_all": 0.8666043834336897,
+   "num_valid_pixels_all": 466681141,
+   "runtime_s": 399.142079,
+   "dataset_size": 953
+}

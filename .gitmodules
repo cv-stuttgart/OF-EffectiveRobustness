@@ -1,0 +1,6 @@
+[submodule "flow_library"]
+	path = flow_library
+	url = git@github.com:cv-stuttgart/flow_library.git
+[submodule "models/ptlflow"]
+	path = models/ptlflow
+	url = https://github.com/hmorimitsu/ptlflow.git

@@ -1,0 +1,29 @@
+{
+   "config": {
+      "net": "GMA",
+      "custom_weight_path": "models/_pretrained_weights/gma-sintel.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/gma-sintel.pth",
+      "creation_timestamp": "240615-012350"
+   },
+   "aee_mean": 1.5843428373336792,
+   "fl-epe-1px_mean": 0.7655525671333401,
+   "fl-epe-3px_mean": 0.9149603185213706,
+   "fl-epe-5px_mean": 0.9470686893545303,
+   "fl-all-kitti_mean": 0.057220009138230825,
+   "mse_mean": 24.2193660736084,
+   "wauc_mean": 0.7523962445456029,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 1.6406417660075787,
+   "fl-epe-1px_all": 0.7600669186883842,
+   "fl-epe-3px_all": 0.9127812713875968,
+   "fl-epe-5px_all": 0.9454232610849792,
+   "fl-all-kitti_all": 0.05853447832984746,
+   "mse_all": 24.917446201415174,
+   "wauc_all": 0.7465462199992576,
+   "num_valid_pixels_all": 18375136
+}

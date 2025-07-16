@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "FlowFormer",
+      "custom_weight_path": "models/_pretrained_weights/FlowFormer-Models/sintel.pth",
+      "dataset": "Sintel",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowFormer-Models/sintel.pth",
+      "creation_timestamp": "250217-023650"
+   },
+   "aee_mean": 0.6539643406867981,
+   "fl-epe-1px_mean": 0.9125215689933759,
+   "fl-epe-3px_mean": 0.9635393257189189,
+   "fl-epe-5px_mean": 0.9771827736953485,
+   "fl-all-kitti_mean": 0.03103983539143951,
+   "mse_mean": 9.467962265014648,
+   "wauc_mean": 0.8963168674272727,
+   "num_valid_pixels_mean": 446464.0,
+   "aee_all": 0.6539643087265986,
+   "fl-epe-1px_all": 0.912521568993376,
+   "fl-epe-3px_all": 0.9635393257189189,
+   "fl-epe-5px_all": 0.9771827736953486,
+   "fl-all-kitti_all": 0.03103983539143951,
+   "mse_all": 9.467961974346167,
+   "wauc_all": 0.8963168674272728,
+   "num_valid_pixels_all": 464769024,
+   "runtime_s": 481.727183,
+   "dataset_size": 1041
+}

@@ -1,0 +1,22 @@
+# package requirements for PCFA
+matplotlib
+opencv-python
+tqdm
+mlflow
+
+# Additional packages for flow_library:
+--requirement=../flow_library/requirements.txt
+
+# Additional packages for ptöflow:
+--requirement=../models/ptlflow/requirements.txt
+
+# For GMA
+einops
+
+# For PWCNet
+spatial-correlation-sampler
+
+# For FlowFormer
+yacs
+loguru
+timm==0.4.12

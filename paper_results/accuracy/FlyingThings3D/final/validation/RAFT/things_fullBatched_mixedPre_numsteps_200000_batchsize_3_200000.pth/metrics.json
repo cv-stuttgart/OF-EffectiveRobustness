@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "RAFT",
+      "custom_weight_path": "/home/bauerkn/raft_plain/checkpoints/things/things_fullBatched_mixedPre_numsteps_200000_batchsize_3/things_fullBatched_mixedPre_numsteps_200000_batchsize_3_200000.pth",
+      "dataset": "FlyingThings3DFinal",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "/home/bauerkn/raft_plain/checkpoints/things/things_fullBatched_mixedPre_numsteps_200000_batchsize_3/things_fullBatched_mixedPre_numsteps_200000_batchsize_3_200000.pth",
+      "creation_timestamp": "240805-052342"
+   },
+   "aee_mean": 4.4718546867370605,
+   "fl-epe-1px_mean": 0.8157867828149302,
+   "fl-epe-3px_mean": 0.8952864775795757,
+   "fl-epe-5px_mean": 0.9182448008167349,
+   "fl-all-kitti_mean": 0.0921654216065031,
+   "mse_mean": 465.5158996582031,
+   "wauc_mean": 0.7985360834742163,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 4.405071828381319,
+   "fl-epe-1px_all": 0.8160026819177275,
+   "fl-epe-3px_all": 0.895489678882456,
+   "fl-epe-5px_all": 0.918436428486281,
+   "fl-all-kitti_all": 0.09198468369750024,
+   "mse_all": 437.79051650449685,
+   "wauc_all": 0.7987368210199209,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 4518.175043,
+   "dataset_size": 7866
+}

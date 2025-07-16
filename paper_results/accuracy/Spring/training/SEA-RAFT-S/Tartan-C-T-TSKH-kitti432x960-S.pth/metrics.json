@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-S",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH-kitti432x960-S.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH-kitti432x960-S.pth",
+      "creation_timestamp": "240823-205129"
+   },
+   "aee_mean": 1.0772908926010132,
+   "fl-epe-1px_mean": 0.9317121047299372,
+   "fl-epe-3px_mean": 0.974878214174435,
+   "fl-epe-5px_mean": 0.984138477490768,
+   "fl-all-kitti_mean": 0.024146466773085424,
+   "mse_mean": 85.57217407226562,
+   "wauc_mean": 0.9030178796579991,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 1.077178258090287,
+   "fl-epe-1px_all": 0.931712530456799,
+   "fl-epe-3px_all": 0.9748791426494611,
+   "fl-epe-5px_all": 0.9841394408838762,
+   "fl-all-kitti_all": 0.02414561719113933,
+   "mse_all": 85.55053767199887,
+   "wauc_all": 0.9030181964233291,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 16378.579463,
+   "dataset_size": 19852
+}

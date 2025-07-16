@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "PWCNet",
+      "custom_weight_path": "models/_pretrained_weights/pwc_net_chairs.pth.tar",
+      "dataset": "Driving",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/pwc_net_chairs.pth.tar",
+      "creation_timestamp": "250131-090150"
+   },
+   "aee_mean": 31.138198852539062,
+   "fl-epe-1px_mean": 0.21623025664287374,
+   "fl-epe-3px_mean": 0.5587315421426651,
+   "fl-epe-5px_mean": 0.6479434012131275,
+   "fl-all-kitti_mean": 0.4346654041813176,
+   "mse_mean": 4922.880859375,
+   "wauc_mean": 0.3255936404391162,
+   "num_valid_pixels_mean": 517894.78483606555,
+   "aee_all": 31.06927230815345,
+   "fl-epe-1px_all": 0.21633269133521524,
+   "fl-epe-3px_all": 0.5589524529168756,
+   "fl-epe-5px_all": 0.6481790772589759,
+   "fl-all-kitti_all": 0.4344725786754123,
+   "mse_all": 4907.46182477857,
+   "wauc_all": 0.32573009380626217,
+   "num_valid_pixels_all": 2274593895,
+   "runtime_s": 1889.515168,
+   "dataset_size": 4392
+}

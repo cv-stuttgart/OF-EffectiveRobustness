@@ -1,0 +1,29 @@
+{
+   "config": {
+      "net": "FlowNet2",
+      "custom_weight_path": "models/_pretrained_weights/FlowNet/FlowNet2_checkpoint.pth.tar",
+      "dataset": "HD1KSplitScheurer",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/FlowNet/FlowNet2_checkpoint.pth.tar",
+      "creation_timestamp": "240615-062836"
+   },
+   "aee_mean": 0.7847594022750854,
+   "fl-epe-1px_mean": 0.8530831385852996,
+   "fl-epe-3px_mean": 0.9510979254212604,
+   "fl-epe-5px_mean": 0.9743076634651545,
+   "fl-all-kitti_mean": 0.04890207457873959,
+   "mse_mean": 4.009917259216309,
+   "wauc_mean": 0.8202717766641051,
+   "num_valid_pixels_mean": 489696.89506820566,
+   "aee_all": 0.7946166408121634,
+   "fl-epe-1px_all": 0.8517420741456532,
+   "fl-epe-3px_all": 0.9502312757909367,
+   "fl-epe-5px_all": 0.9737950199277497,
+   "fl-all-kitti_all": 0.049768724209063336,
+   "mse_all": 4.1574408552990505,
+   "wauc_all": 0.8188034545742344,
+   "num_valid_pixels_all": 466681141
+}

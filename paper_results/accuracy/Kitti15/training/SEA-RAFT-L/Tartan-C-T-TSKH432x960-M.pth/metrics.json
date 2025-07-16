@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-L",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH432x960-M.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH432x960-M.pth",
+      "creation_timestamp": "240626-153818"
+   },
+   "aee_mean": 0.8956730365753174,
+   "fl-epe-1px_mean": 0.8597623073125095,
+   "fl-epe-3px_mean": 0.9565283785404549,
+   "fl-epe-5px_mean": 0.9743788200499673,
+   "fl-all-kitti_mean": 0.026036958131097025,
+   "mse_mean": 12.969701766967773,
+   "wauc_mean": 0.835726907901974,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 0.897024535224936,
+   "fl-epe-1px_all": 0.8573219267601612,
+   "fl-epe-3px_all": 0.9562806501132836,
+   "fl-epe-5px_all": 0.9744617400382778,
+   "fl-all-kitti_all": 0.025588218775632464,
+   "mse_all": 12.291378341699756,
+   "wauc_all": 0.83252467256744,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 47.814369,
+   "dataset_size": 200
+}

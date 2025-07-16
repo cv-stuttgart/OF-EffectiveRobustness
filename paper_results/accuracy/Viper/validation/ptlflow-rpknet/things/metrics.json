@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "ptlflow-rpknet",
+      "custom_weight_path": "things",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "things",
+      "creation_timestamp": "240801-202159"
+   },
+   "aee_mean": 40.10154724121094,
+   "fl-epe-1px_mean": 0.6829421989494376,
+   "fl-epe-3px_mean": 0.8024212623304205,
+   "fl-epe-5px_mean": 0.8363777947969218,
+   "fl-all-kitti_mean": 0.17692420284763788,
+   "mse_mean": 161687.453125,
+   "wauc_mean": 0.6742022757430811,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 39.280203403587414,
+   "fl-epe-1px_all": 0.6850655515814122,
+   "fl-epe-3px_all": 0.803159470032301,
+   "fl-epe-5px_all": 0.8370174341142215,
+   "fl-all-kitti_all": 0.17616411050357592,
+   "mse_all": 153590.5574885033,
+   "wauc_all": 0.6759227328260002,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 6270.80121,
+   "dataset_size": 4954
+}

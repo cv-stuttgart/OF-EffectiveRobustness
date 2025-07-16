@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "CCMR+",
+      "custom_weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_kitti.pth",
+      "dataset": "FlyingChairs",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ccmr_weights/CCMR+_kitti.pth",
+      "creation_timestamp": "250225-034600"
+   },
+   "aee_mean": 1.6896610260009766,
+   "fl-epe-1px_mean": 0.8790936867396036,
+   "fl-epe-3px_mean": 0.9490655581156412,
+   "fl-epe-5px_mean": 0.9580874125162762,
+   "fl-all-kitti_mean": 0.05039641857147217,
+   "mse_mean": 48.87462615966797,
+   "wauc_mean": 0.8756008622701412,
+   "num_valid_pixels_mean": 196608.0,
+   "aee_all": 1.6896610022726235,
+   "fl-epe-1px_all": 0.8790936867396036,
+   "fl-epe-3px_all": 0.9490655581156413,
+   "fl-epe-5px_all": 0.958087412516276,
+   "fl-all-kitti_all": 0.05039641857147217,
+   "mse_all": 48.87462653055591,
+   "wauc_all": 0.8756008622701419,
+   "num_valid_pixels_all": 125829120,
+   "runtime_s": 363.879345,
+   "dataset_size": 640
+}

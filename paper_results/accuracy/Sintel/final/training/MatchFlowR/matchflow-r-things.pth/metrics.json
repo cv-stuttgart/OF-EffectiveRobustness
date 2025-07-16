@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MatchFlowR",
+      "custom_weight_path": "models/_pretrained_weights/matchflow_weights/matchflow-r/matchflow-r-things.pth",
+      "dataset": "Sintel",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/matchflow_weights/matchflow-r/matchflow-r-things.pth",
+      "creation_timestamp": "250221-220712"
+   },
+   "aee_mean": 2.614349365234375,
+   "fl-epe-1px_mean": 0.863737276518669,
+   "fl-epe-3px_mean": 0.924779741775562,
+   "fl-epe-5px_mean": 0.9425843663798041,
+   "fl-all-kitti_mean": 0.07189114006014306,
+   "mse_mean": 112.55964660644531,
+   "wauc_mean": 0.842739668222684,
+   "num_valid_pixels_mean": 446464.0,
+   "aee_all": 2.614349308846864,
+   "fl-epe-1px_all": 0.8637372765186692,
+   "fl-epe-3px_all": 0.9247797417755621,
+   "fl-epe-5px_all": 0.9425843663798041,
+   "fl-all-kitti_all": 0.07189114006014308,
+   "mse_all": 112.5596574998529,
+   "wauc_all": 0.8427396682226854,
+   "num_valid_pixels_all": 464769024,
+   "runtime_s": 369.906362,
+   "dataset_size": 1041
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SEA-RAFT-S",
+      "custom_weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH432x960-S.pth",
+      "dataset": "Sintel",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/SEA-RAFT-models/Tartan-C-T-TSKH432x960-S.pth",
+      "creation_timestamp": "240626-143049"
+   },
+   "aee_mean": 0.7833939790725708,
+   "fl-epe-1px_mean": 0.9237225327650063,
+   "fl-epe-3px_mean": 0.9659540262304572,
+   "fl-epe-5px_mean": 0.9763449381686848,
+   "fl-all-kitti_mean": 0.03009457446114137,
+   "mse_mean": 18.361665725708008,
+   "wauc_mean": 0.9075762201590073,
+   "num_valid_pixels_mean": 446464.0,
+   "aee_all": 0.7833939802982307,
+   "fl-epe-1px_all": 0.9237225327650063,
+   "fl-epe-3px_all": 0.9659540262304572,
+   "fl-epe-5px_all": 0.9763449381686848,
+   "fl-all-kitti_all": 0.03009457446114137,
+   "mse_all": 18.361666087254857,
+   "wauc_all": 0.9075762201590063,
+   "num_valid_pixels_all": 464769024,
+   "runtime_s": 228.782636,
+   "dataset_size": 1041
+}

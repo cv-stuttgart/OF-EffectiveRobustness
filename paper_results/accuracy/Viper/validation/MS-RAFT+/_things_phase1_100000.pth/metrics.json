@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MS-RAFT+",
+      "custom_weight_path": "models/_pretrained_weights/ms_raft_plus/_things_phase1_100000.pth",
+      "dataset": "Viper",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ms_raft_plus/_things_phase1_100000.pth",
+      "creation_timestamp": "240812-015956"
+   },
+   "aee_mean": 47.6353645324707,
+   "fl-epe-1px_mean": 0.6939419534761117,
+   "fl-epe-3px_mean": 0.7832952024423919,
+   "fl-epe-5px_mean": 0.8105580032063024,
+   "fl-all-kitti_mean": 0.2028061559824484,
+   "mse_mean": 164216.25,
+   "wauc_mean": 0.688331359278517,
+   "num_valid_pixels_mean": 1788507.4747678644,
+   "aee_all": 46.727918383570945,
+   "fl-epe-1px_all": 0.6962403046491822,
+   "fl-epe-3px_all": 0.7847115689820885,
+   "fl-epe-5px_all": 0.8118807483481396,
+   "fl-all-kitti_all": 0.20129935737381013,
+   "mse_all": 156089.17245136847,
+   "wauc_all": 0.6904165856812101,
+   "num_valid_pixels_all": 8860266030,
+   "runtime_s": 16244.537163,
+   "dataset_size": 4954
+}

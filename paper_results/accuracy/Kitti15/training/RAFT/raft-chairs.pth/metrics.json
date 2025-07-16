@@ -1,0 +1,30 @@
+{
+   "config": {
+      "net": "RAFT",
+      "custom_weight_path": "models/_pretrained_weights/raft-chairs.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/raft-chairs.pth",
+      "creation_timestamp": "240617-135759"
+   },
+   "aee_mean": 9.931269645690918,
+   "fl-epe-1px_mean": 0.34344647441193366,
+   "fl-epe-3px_mean": 0.627882277314531,
+   "fl-epe-5px_mean": 0.7215061301069625,
+   "fl-all-kitti_mean": 0.36386420575320516,
+   "mse_mean": 356.2690734863281,
+   "wauc_mean": 0.4227015899221044,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 10.366032788782793,
+   "fl-epe-1px_all": 0.32515536211541507,
+   "fl-epe-3px_all": 0.6183757769194198,
+   "fl-epe-5px_all": 0.7147395807029673,
+   "fl-all-kitti_all": 0.37294619207172125,
+   "mse_all": 382.63978341472085,
+   "wauc_all": 0.4074811121543441,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 36.216011
+}

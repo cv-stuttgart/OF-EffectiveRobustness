@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "SKFlow",
+      "custom_weight_path": "models/_pretrained_weights/skflow_weights/skflow-kitti.pth",
+      "dataset": "FlyingThings3DFinal",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/skflow_weights/skflow-kitti.pth",
+      "creation_timestamp": "240625-015523"
+   },
+   "aee_mean": 13.002595901489258,
+   "fl-epe-1px_mean": 0.626264216202439,
+   "fl-epe-3px_mean": 0.7677610835807832,
+   "fl-epe-5px_mean": 0.8058838705234328,
+   "fl-all-kitti_mean": 0.22064724939738675,
+   "mse_mean": 1162.89501953125,
+   "wauc_mean": 0.6162095841787723,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 12.920025813826713,
+   "fl-epe-1px_all": 0.6264453623333135,
+   "fl-epe-3px_all": 0.7679624748435382,
+   "fl-epe-5px_all": 0.8060912339747687,
+   "fl-all-kitti_all": 0.22044362972776527,
+   "mse_all": 1132.941091278903,
+   "wauc_all": 0.6163798100320567,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 3782.760001,
+   "dataset_size": 7866
+}

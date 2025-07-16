@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "MS-RAFT+",
+      "custom_weight_path": "models/_pretrained_weights/ms_raft_plus/_things_phase1_100000.pth",
+      "dataset": "Spring",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/ms_raft_plus/_things_phase1_100000.pth",
+      "creation_timestamp": "240728-072940"
+   },
+   "aee_mean": 0.44747981429100037,
+   "fl-epe-1px_mean": 0.9625259138791363,
+   "fl-epe-3px_mean": 0.9859833041158743,
+   "fl-epe-5px_mean": 0.9916552382016036,
+   "fl-all-kitti_mean": 0.012945047223979617,
+   "mse_mean": 20.742048263549805,
+   "wauc_mean": 0.9457826854315865,
+   "num_valid_pixels_mean": 2073547.2271307677,
+   "aee_all": 0.4473580042861218,
+   "fl-epe-1px_all": 0.9625262364122787,
+   "fl-epe-3px_all": 0.9859840019117369,
+   "fl-epe-5px_all": 0.9916559970583618,
+   "fl-all-kitti_all": 0.012944407786456202,
+   "mse_all": 20.715264671266272,
+   "wauc_all": 0.9457827859094659,
+   "num_valid_pixels_all": 41164059553,
+   "runtime_s": 69308.695363,
+   "dataset_size": 19852
+}

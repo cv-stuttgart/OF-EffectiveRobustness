@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "unimatch",
+      "custom_weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale1-things-e9887eda.pth",
+      "dataset": "Kitti15",
+      "dataset_stage": "training",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/unimatch_weights/gmflow-scale1-things-e9887eda.pth",
+      "creation_timestamp": "240622-182614"
+   },
+   "aee_mean": 10.493212699890137,
+   "fl-epe-1px_mean": 0.416064141696518,
+   "fl-epe-3px_mean": 0.6526925617517813,
+   "fl-epe-5px_mean": 0.7266120141697897,
+   "fl-all-kitti_mean": 0.33700365026062806,
+   "mse_mean": 379.46258544921875,
+   "wauc_mean": 0.46305115607233616,
+   "num_valid_pixels_mean": 91875.68,
+   "aee_all": 10.879392268013461,
+   "fl-epe-1px_all": 0.40244986486086415,
+   "fl-epe-3px_all": 0.6444143869193676,
+   "fl-epe-5px_all": 0.7198926309987583,
+   "fl-all-kitti_all": 0.34481682203603825,
+   "mse_all": 400.0855090659508,
+   "wauc_all": 0.4509473994458252,
+   "num_valid_pixels_all": 18375136,
+   "runtime_s": 29.294915,
+   "dataset_size": 200
+}

@@ -1,0 +1,31 @@
+{
+   "config": {
+      "net": "GMA",
+      "custom_weight_path": "models/_pretrained_weights/gma-kitti.pth",
+      "dataset": "FlyingThings3D",
+      "dataset_stage": "evaluation",
+      "small_run": false,
+      "dataset_pass": "final",
+      "output_folder": "experiment_data",
+      "weight_path": "models/_pretrained_weights/gma-kitti.pth",
+      "creation_timestamp": "250131-025415"
+   },
+   "aee_mean": 20.392175674438477,
+   "fl-epe-1px_mean": 0.5876582431443663,
+   "fl-epe-3px_mean": 0.711664403633355,
+   "fl-epe-5px_mean": 0.7468111440370825,
+   "fl-all-kitti_mean": 0.282183600279809,
+   "mse_mean": 2060.385986328125,
+   "wauc_mean": 0.5738933980889313,
+   "num_valid_pixels_mean": 518229.53254513093,
+   "aee_all": 20.292462994312384,
+   "fl-epe-1px_all": 0.5878394704133646,
+   "fl-epe-3px_all": 0.711878373092383,
+   "fl-epe-5px_all": 0.7470340451084759,
+   "fl-all-kitti_all": 0.28196913402842305,
+   "mse_all": 2025.8784212856172,
+   "wauc_all": 0.5740684024227408,
+   "num_valid_pixels_all": 4076393503,
+   "runtime_s": 2333.245863,
+   "dataset_size": 7866
+}
