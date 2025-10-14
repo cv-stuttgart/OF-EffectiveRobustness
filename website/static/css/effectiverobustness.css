@@ -1,0 +1,29 @@
+
+/* CSS for table with sticky first column.
+cf. https://css-tricks.com/a-table-with-both-a-sticky-header-and-a-sticky-first-column/
+*/
+
+table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+
+table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+table tbody td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1; /* Lower z-index than the header to avoid overlap issues */
+}
+
+.has-background-yourmodel {
+  background-color: #9467bd;
+}

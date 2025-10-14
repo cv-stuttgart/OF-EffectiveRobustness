@@ -21,7 +21,7 @@ def store_metrics(json_filepath, meta_data):
         "fl-all-kitti_mean",
         "mse_mean",
         "wauc_mean",
-        "runtime_s",
+        # "runtime_s", # Run time was just for logging; models were run on different hardware
     ]:
         if m in json_obj:
             new_entry = {

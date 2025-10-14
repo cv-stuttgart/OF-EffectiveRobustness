@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1178.1467"
+   height="911.47998"
+   viewBox="0 0 1178.1467 911.47998"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <path
+       id="path1"
+       d="m 683.605,341.805 c 0,188.773 -153.031,341.804 -341.8,341.804 C 153.031,683.609 0,530.578 0,341.805 0,153.035 153.031,0.004 341.805,0.004 c 188.769,0 341.8,153.031 341.8,341.801"
+       style="fill:#00519e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <path
+       id="path2"
+       d="m 883.605,341.805 c 0,188.773 -153.031,341.804 -341.8,341.804 C 353.031,683.609 200,530.578 200,341.805 200,153.035 353.031,0.004 541.805,0.004 c 188.769,0 341.8,153.031 341.8,341.801"
+       style="fill:#3e444c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <path
+       id="path3"
+       d="M 414.867,127.082 540.211,504.34 672.281,127.082 h 61.754 L 571.395,568.539 H 504.137 L 346.996,127.082 h 67.871"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <path
+       id="path4"
+       d="m 443.551,484.082 c -24.375,15.004 -53.074,23.664 -83.797,23.664 -88.43,0 -160.113,-71.687 -160.113,-160.113 0,-81.227 60.484,-148.317 138.871,-158.707 L 318.715,133.297 C 219.277,152.68 144.156,241.273 144.156,347.66 c 0,120.574 96.492,218.317 215.52,218.317 37.508,0 72.773,-9.711 103.488,-26.782 l -19.613,-55.113"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+  </g>
+</svg>

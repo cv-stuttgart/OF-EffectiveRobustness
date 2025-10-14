@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Effective Robustness for Optical Flow">
+  <meta name="keywords" content="effective robustness, generalization, optical flow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Effective Robustness for Optical Flow</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+
+      gtag('config', 'G-PYVRSFMDRL');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+  -->
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-responsive-tables.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/effectiverobustness.css">
+  <link rel="icon" href="./static/images/CV_Logo.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/effectiverobustness.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://github.com/cv-stuttgart/">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Related Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://modestyachts.github.io/imagenet-testbed/">
+              Effective Robustness for Image Classification
+            </a>
+            <!--<a class="navbar-item" href="https://nerfies.github.io">
+              Nerfies
+            </a>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h2 class="title is-1 publication-title">On the Generalization of Optical Flow: Quantifying Robustness to Dataset Shifts</h2>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://www.vis.uni-stuttgart.de/team/Bauer-00058/">Katrin Bauer</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.vis.uni-stuttgart.de/team/Schmalfuss/">Jenny Schmalfuss</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.vis.uni-stuttgart.de/team/Bruhn-00001/">Andr&#233;s Bruhn</a>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <!--<span class="author-block"><sup>1</sup>University of Stuttgart</span>-->
+              <span class="author-block">University of Stuttgart</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://openreview.net/pdf/1f9803811ff2cbef605e965b3c76d2fc259e0630.pdf"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!--
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2011.12948" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                -->
+                <!-- Video Link. -->
+                <!--
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                -->
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/cv-stuttgart/OF-EffectiveRobustness" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/cv-stuttgart/OF-EffectiveRobustness/tree/main/paper_results"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              We present the <b>effective robustness metric for optical flow</b>.
+            </p>
+            <p>
+              Optical flow models are commonly evaluated by their ability to accurately predict the apparent motion from
+              image sequence data.
+              Though not seen during training, this evaluation data generally shares the training data's characteristics
+              because it stems from the same distribution, i.e. it is in-distribution (ID) with the training data.
+              However, when models are applied in the real world, the test data characteristics may be shifted, i.e.
+              out-of-distribution (OOD), compared to the training data.
+              For optical flow models, the generalization to dataset shifts is much less reported than the typical
+              accuracy on ID data.
+              In this work, we close this gap and systematically investigate the generalization of optical flow models
+              by disentangling accuracy and robustness to dataset shifts with a new effective robustness metric.
+              We evaluate a testbed of 20 models on six established optical flow datasets.
+              Across models and datasets, we find that ID accuracy can be used as a predictor for OOD performance, but
+              certain models generalize better than this trend suggests.
+              While our analysis reveals that model generalization capabilities declined in recent years, we also find
+              that more training data and smart architectural choices can improve generalization.
+              Across tested models, effective robustness to dataset shifts is high for models that avoid attention
+              mechanisms and favor multi-scale designs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+    </div>
+  </section>
+
+
+<!-- Concept. -->
+<!--
+  <section class="section" id="section-concept">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Concept</h2>
+      <div class="content has-text-justified">
+            <p>
+              Effective robustness measures OOD robustness as difference between a model's WAUC on OOD data and a baseline that depends on the model's WAUC on ID data.
+            </p>
+            <p>
+              
+            </p>
+      </div>
+
+    </div>
+  </section>
+-->
+<!--/ Concept. -->
+
+
+  <section class="section" id="section-results">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">Results</h2>
+
+      <div class="tabs is-toggle">
+        <ul>
+          <li id="tab-button-table" data-tab="tab-content-table" onclick="openTab('tab-content-table')"><a>Wide Table</a></li>
+          <li id="tab-button-both" data-tab="tab-content-both" onclick="openTab('tab-content-both')" class="is-active"><a>Side-by-Side</a>
+          </li>
+          <li id="tab-button-graph" data-tab="tab-content-graph" onclick="openTab('tab-content-graph')"><a>Graph</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="tab-content-table" class="tab-content" style="display: none;">
+        <p>
+          The table below shows the accuracy of several models on different datasets.
+          You can download the underlying data table as <a href="./static/data/summary_metrics_merged.csv" class="external-link">CSV file</a>.
+          In the first row, you can insert your own model's accuracy to assess its effective robustness.
+        </p>
+        <div id="csv-table-container-wide" class="table-container"></div>
+      </div>
+
+      <div id="tab-content-both" class="tab-content">
+      <div>
+        <p>
+          Below is a table (left) and scatter plot (right) of the accuracy of several models.
+        </p>
+      </div>
+
+        <div class="columns is-centered">
+
+          <!-- Numeric Results. -->
+          <div class="column content">
+            <!-- <h2 class="title is-3">Numeric Results</h2> -->
+            <div style="display: flex; flex-wrap: wrap; justify-content: left; flex-direction: row;">
+              <div class="control">
+                <label class="label" style="margin: 5px;">OOD Dataset</label>
+
+                <div class="select">
+
+                  <select style="min-width: 150px" id="select-dataset-sidebyside">
+                    <option>Sintel</option>
+                    <option>KITTI</option>
+                    <option>HD1K</option>
+                    <option>Driving</option>
+                    <option>VIPER</option>
+                    <option>Spring</option>
+                  </select>
+                </div>
+              </div>
+              <div class="control">
+                <label class="label" style="margin: 5px;">Training Stage</label>
+
+                <div class="select">
+
+                  <select style="min-width: 150px" id="select-checkpoint-sidebyside">
+                    <option>C+T</option>
+                    <option>S</option>
+                    <option>K</option>
+                  </select>
+                </div>
+              </div>
+              <div id="csv-table-container" class="table-container"></div>
+            </div>
+          </div>
+          <!--/ Numeric Results. -->
+
+          <!-- Scatter Plot. -->
+          <div class="column">
+            <!-- <h2 class="title is-3">Distribution Shift Plot</h2> -->
+            <div class="columns is-centered">
+              <div class="column content">
+                <div class="container is-max-desktop">
+                  <div id="scatter-plot"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--/ Scatter Plot. -->
+        </div>
+
+      </div>
+
+      <div id="tab-content-graph" class="tab-content" style="display: none;">
+        <p>
+          Below is a scatter plot of the accuracy of several models.
+          You can download the underlying data table as <a href="./static/data/summary_metrics_merged.csv" class="external-link">CSV file</a>.
+          In the first row, you can insert your own model's accuracy to assess its effective robustness.
+        </p>
+        <div class="columns is-centered">
+          <div class="column content">
+            <div class="container is-max-desktop">
+              <div id="scatter-plot-custom"></div>
+            </div>
+
+            <div class="control">
+              <label class="label" style="margin: 5px;">X</label>
+
+              <label style="margin: 5px;">Dataset</label>
+              <div class="select">
+
+                <select style="min-width: 150px" class="select-dataset" id="x-select-dataset">
+                  <option>Activate JS</option>
+                </select>
+              </div>
+              <label style="margin: 5px;">Metric</label>
+              <div class="select">
+
+                <select style="min-width: 150px" class="select-metric" id="x-select-metric">
+                  <option>Activate JS</option>
+                </select>
+              </div>
+            </div>
+            <div class="control">
+              <label class="label" style="margin: 5px;">Y</label>
+
+              <label style="margin: 5px;">Dataset</label>
+              <div class="select">
+
+                <select style="min-width: 150px" class="select-dataset" id="y-select-dataset">
+                  <option>Activate JS</option>
+                </select>
+              </div>
+              <label style="margin: 5px;">Metric</label>
+              <div class="select">
+
+                <select style="min-width: 150px" class="select-metric" id="y-select-metric">
+                  <option>Activate JS</option>
+                </select>
+              </div>
+            </div>
+            <!--/ Scatter Plot. -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{bauer2025effectiverobustness,
+  author    = {Bauer, Katrin and Bruhn, Andr&#233;s and Schmalfuss, Jenny},
+  title     = {On the Generalization of Optical Flow: Quantifying Robustness to Dataset Shifts},
+  journal   = {ICCV Workshop},
+  year      = {2025},
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://openreview.net/pdf/1f9803811ff2cbef605e965b3c76d2fc259e0630.pdf">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/cv-stuttgart" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              This means you are free to borrow the <a href="https://github.com/cv-stuttgart/OF-EffectiveRobustness/tree/main/website">source
+                code</a> of this website, we just ask that you link back to this page in the footer.
+              This website design is based on <a href="https://github.com/nerfies/nerfies.github.io">https://github.com/nerfies/nerfies.github.io</a>.
+              <!--Please remember to remove the analytics code included in the header of the website which
+              you do not want on your website.-->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -2,15 +2,15 @@
 
 This repository contains the source code for:
 
-> **[On the Generalization of Optical Flow: Quantifying Robustness to Dataset Shifts](https://openreview.net/pdf/1f9803811ff2cbef605e965b3c76d2fc259e0630.pdf)**<br/>
+> **[On the Generalization of Optical Flow: Quantifying Robustness to Dataset Shifts](https://openreview.net/pdf/1f9803811ff2cbef605e965b3c76d2fc259e0630.pdf)** <br/>
 > _ICCV 2025 Workshop DataCV_ <br/>
-> Katrin Bauer, Andr ́es Bruhn, and Jenny Schmalfuss
+> Katrin Bauer, Andr&#233;s Bruhn, and Jenny Schmalfuss
 
 
 ## Abstract
 
 Optical flow models are commonly evaluated by their ability to accurately predict the apparent motion from image sequence data.
-Though not seen during training, this evaluation data generally shares the training data's characteristics because it stems from the same distribution, i.e. it is in-distribution (ID) with the training data.
+Though not seen during training, this evaluation data generally shares the training data's characteristics because it stems from the same distribution, i.e., it is in-distribution (ID) with the training data.
 However, when models are applied in the real world, the test data characteristics may be shifted, i.e. out-of-distribution (OOD), compared to the training data.
 For optical flow models, the generalization to dataset shifts is much less reported than the typical accuracy on ID data.
 In this work, we close this gap and systematically investigate the generalization of optical flow models by disentangling accuracy and robustness to dataset shifts with a new effective robustness metric.
