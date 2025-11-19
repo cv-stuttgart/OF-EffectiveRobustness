@@ -4,11 +4,13 @@ This is the source code for the website for [Effective Robustness for Optical Fl
 
 If you find our work useful, please cite:
 ```
-@article{bauer2025effectiverobustness,
-  author    = {Bauer, Katrin and Bruhn, Andr´es and Schmalfuss, Jenny},
-  title     = {On the Generalization of Optical Flow: Quantifying Robustness to Dataset Shifts},
-  journal   = {ICCV Workshop},
-  year      = {2025},
+@InProceedings{Bauer_2025_ICCV,
+    author    = {Bauer, Katrin and Bruhn, Andr\'es and Schmalfuss, Jenny},
+    title     = {On the Generalization of Optical Flow: Quantifying Robustness to Dataset Shifts},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025},
+    pages     = {467-477}
 }
 ```
 
